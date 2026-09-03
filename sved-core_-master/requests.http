@@ -1,0 +1,11 @@
+### Login administrador
+POST http://localhost:8085/api/v1/admin/login
+Content-Type: application/json
+
+{
+  "usuario": "admin",
+  "contrasena": "123456"
+}
+
+### Dashboard
+GET http://localhost:8085/api/v1/dashboard/metricas
